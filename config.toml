@@ -1,6 +1,6 @@
 title = "Cyber AI"
 baseURL = "http://cyberai.tech"
-tags = ["portfolio", "web design", "blog"]
+tags = ["cyber", "security", "artificial intelligence", "blog"]
 languageCode = "en-US"
 config = "config.toml"
 theme = "osprey"
@@ -9,10 +9,9 @@ canonifyURLS = true
 googleAnalytics = ""
 disqusShortname = "tomanistor"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
-# #355959
-# #64a2a2
+
 [Params]
-    tagline = "AI applied to Cyber Security"
+    tagline = "Artificial Intelligence for Cyber Security"
     author = "Evan Gaustad"
     description = "Exploring new techniques to combat cyber threats"
     logoBig = "/images/cyber-ai-logo.png"
