@@ -9,15 +9,16 @@ canonifyURLS = true
 googleAnalytics = ""
 disqusShortname = "tomanistor"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
-
+# #355959
+# #64a2a2
 [Params]
     tagline = "AI applied to Cyber Security"
     author = "Evan Gaustad"
     description = "Exploring new techniques to combat cyber threats"
-    logoBig = "/images/osprey-logo.png"
-    logoSmall = "/images/osprey-logo.png"
+    logoBig = "/images/cyber-ai-logo.png"
+    logoSmall = "/images/cyber-ai-logo.png"
     favicon = "favicon.ico"
-    opengraphImage = "/images/osprey.png"
+    opengraphImage = "/images/cyber-ai-logo"
     twitter = "egaustad3"
     linkedin = "Evan Gaustad"
     github = "egaus"
@@ -35,10 +36,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
     name = "About"
     url  = "/#about"
     weight = 1
-[[menu.main]]
-    name = "Work"
-    url  = "/#work"
-    weight = 2
 [[menu.main]]
     name = "Blog"
     url  = "/#blog"
