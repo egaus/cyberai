@@ -6,11 +6,11 @@
   <title>
     
     
-        Blogs | Cyber AI
+        Detecting Similarity | Cyber AI
     
   </title>
 
-  <meta name="title" content="Blogs | Cyber AI">
+  <meta name="title" content="Detecting Similarity | Cyber AI">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -35,7 +35,7 @@
     <meta name="twitter:creator" content="@egaustad3">
   
 
-  <meta property="og:title" content="Blogs | Cyber AI">
+  <meta property="og:title" content="Detecting Similarity | Cyber AI">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://cyberai.tech">
 
@@ -52,10 +52,8 @@
     <meta name="theme-color" content="#FFF">
   
 
-  <link rel="canonical" href="http://cyberai.tech/blog/">
+  <link rel="canonical" href="http://cyberai.tech/blog/detecting-similarity/">
 
-  
-    <link href="http://cyberai.tech/blog/index.xml" rel="alternate" type="application/rss+xml" title="Cyber AI">
   
 
   <link rel="stylesheet" href="http://cyberai.tech/styles/main.css" type="text/css">
@@ -112,45 +110,60 @@
 
     <main>
 
-      <section class="blog" id="blog">
-          <div class="container">
-              <div class="row center-xs">
-                  <div class="col-xs-12"><h1>Blog</h1></div>
+      <section class="container">
+          <section class="content">
+              <h1> Detecting Similarity </h1>
+
+              <div class="sub-header">
+                  March 2018 · 1 minute read
               </div>
-              <div class="row">
-                  <div class="col-xs-12 posts-list">
-                      
-                          <article>
-                              <h2><a href="http://cyberai.tech/blog/detecting-similarity/">Detecting Similarity</a></h2>
-                              <div class=sub-header>
-                              March 2018 · 1 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="http://cyberai.tech/blog/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></h2>
-                              <div class=sub-header>
-                              March 2014 · 4 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="http://cyberai.tech/blog/goisforlovers/">(Hu)go Template Primer</a></h2>
-                              <div class=sub-header>
-                              April 2014 · 7 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="http://cyberai.tech/blog/hugoisforlovers/">Getting Started with Hugo</a></h2>
-                              <div class=sub-header>
-                              April 2014 · 2 minute read
-                              </div>
-                          </article>
-                      
-                  </div>
+
+              <article class="entry-content">
+                  
+
+<h2 id="introduction">Introduction</h2>
+
+<p>As defenders, our job is often to analyze suspicious activity and determine whether or not we can reliably detect or prevent the adversary&rsquo;s activity.  By far, the most common way this is done in practice is with regular expressions.  Regular expressions for pattern matching is absolutely a valid technique that can get us very far, very fast.  But in no means is it the right tool for every job.</p>
+
+<p>In this post, we&rsquo;ll explore a number of other options that can be used to detect whether other events or data is similar to example events we&rsquo;d like to find.</p>
+
+<h2 id="follow-along">Follow Along</h2>
+
+<p>If you&rsquo;d like to follow along with the examples in this post, pull down the Jupyter notebook <a href="https://github.com">on github</a></p>
+
+<p>Install Jupyter Notebook and start up the server:</p>
+
+<pre><code>$ pip install jupyter
+$ jupyter-notebook
+</code></pre>
+
+              </article>
+
+              <div class="pagination">
+                  
+                      <a href="http://cyberai.tech/blog/migrate-from-jekyll/">&laquo; Migrate to Hugo from Jekyll</a>
+                  
+                  
               </div>
-          </div>
+          </section>
+          <br>
+          <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+      var disqus_shortname = 'tomanistor';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view comments powered by <a href="http://disqus.com/?ref_noscript">Disqus</a>.</noscript>
+</section>
+
       </section>
 
     </main>

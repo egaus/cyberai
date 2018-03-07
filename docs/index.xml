@@ -6,19 +6,18 @@
     <description>Recent content on Cyber AI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://cyberai.tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>http://cyberai.tech/blog/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Detecting Similarity</title>
+      <link>http://cyberai.tech/blog/detecting-similarity/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://cyberai.tech/blog/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>http://cyberai.tech/blog/detecting-similarity/</guid>
+      <description>Introduction As defenders, our job is often to analyze suspicious activity and determine whether or not we can reliably detect or prevent the adversary&amp;rsquo;s activity. By far, the most common way this is done in practice is with regular expressions. Regular expressions for pattern matching is absolutely a valid technique that can get us very far, very fast. But in no means is it the right tool for every job.</description>
     </item>
     
     <item>
